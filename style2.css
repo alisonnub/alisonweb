@@ -1,0 +1,83 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url(./Coffee.webp);
+    background-size: cover;
+    background-position-y: 70%;
+    font-family: sans-serif;
+    color: black;
+}
+
+nav {
+    display: flex;
+    padding: 30px;
+    margin-top: 20px;
+    background-color: #Ab6832;
+}
+
+.logo {
+    width: 30%;
+    margin-left: 5%;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-list {
+    display: flex;
+    margin-left: 12%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.na-items {
+    list-style: none;
+    margin-left: 30%;
+    font-size: 24px;
+}
+
+.na-items a {
+    text-decoration: none;
+    color: black;
+    transition: color .4s;
+}
+
+.na-items a:hover {
+    color: #49281a;
+}
+
+.main-text {
+    font: 36px;
+    margin-left: 50%;
+    margin-top: 15%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+.body-text {
+    font-size: 20px;
+    width: 36%;
+    margin-left: 50%;
+    margin-top: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mail {
+    background-color: transparent;
+    outline: none;
+    border: 4px solid #Ab6832;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 50%;
+    margin-top: 4%;
+    transition: .5s;
+}
+
+.mail:hover {
+    background-color: #Ab6832;
+    color: aliceblue;
+}
