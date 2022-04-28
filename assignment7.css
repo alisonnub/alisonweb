@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: gray;
+    padding: 0 10px;
+}
+
+.form_start {
+    max-width: 500px;
+    width: 100%;
+    background: pink;
+    margin: 20px auto;
+    padding: 30px;
+}
+
+.form_start .title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.form_start .form {
+    width: 100%;
+}
+
+.form_start .form .inputfield {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.form_start .form .inputfield label {
+    width: 200px;
+    color: #757575;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.form_start .form .inputfield .input,
+.form_start.inputfield .textarea {
+    width: 100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+
+.form_start .form .inputfield .textarea {
+    width: 100%;
+    height: 125px;
+}
+
+.form_start .form .inputfield .custom_select {
+    position: relative;
+    width: 100%;
+    height: 37px;
+}
+
+.form_start .form .inputfield .custom_select:before {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    border: 8px solid;
+    border-color: #d5dbd9;
+}
+
+.form_start .form .inputfield .custom_select select {
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 1px solid #d5dbd9;
+    border-radius: 3px;
+}
+
+
+.form_start .form .inputfield .input,
+.form_start .form .inputfield .textarea,
+.form_start .form .inputfield .custom_select {
+    border: 1px solid pink;
+}
+
+
+.form_start .form .inputfield .btn {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 0px;
+    background: gray;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}
+
+.form_start .form .inputfield .btn:hover {
+    background: palevioletred;
+}
+
+.form_start .form .inputfield:last-child {
+    margin-bottom: 0;
+}
+
+.form_start .form .inputfield {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form_start .form .inputfield label {
+    margin-bottom: 5px;
+}
+
+.form_start .form .inputfield.terms {
+    flex-direction: row;
+}
+}
